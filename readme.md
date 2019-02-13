@@ -1,4 +1,6 @@
+#Bootstrap Exercice - Innovation.io
 
+Link to the [github page](https://matthieujasselette.github.io/Bootstrap-Exercice---Innovation.io/).
 # Becode Template for JavaScript Exercises
 
 Hello ! This is a simple but effective template to use in Becode's JavaScript exercises.
