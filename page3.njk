@@ -54,26 +54,42 @@
       </table>
     </div>
   </div>
-  <br>
   <div class="contactForm">
-    <form>
-      <div class="form-group">
-        <label for="recipient-name" class="col-form-label">Recipient:</label>
-        <input type="text" class="form-control" id="recipient-name">
+    <div class="parallax">
+
+      <div class="paralTitle">
+        <h3>Contact us</h3>
       </div>
-      <div class="form-group">
-        <label for="message-text" class="col-form-label">Message:</label>
-        <textarea class="form-control" id="message-text"></textarea>
+      
+      <div class="paralContent">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <div class="form-footer">
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </form>
       </div>
-      <div class="form-footer">
-        <button type="button" class="btn btn-primary">Send message</button>
+      <div class="paralVoid">
+        <!-- void -->
       </div>
-    </form>
+    </div>
+
   </div>
   <br>
-  <div class="googleMap">
-    <img src="./img/gmapResized.png" alt="#" class="img-fluid" alt="Responsive image">
-    <!-- <img src="./img/gmapResized.png" alt="#"> -->
+  <div class="googleMap z-depth-1-half map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1265.1225509823544!2d5.5661058759437685!3d50.64113899584253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa108a6c5f5b%3A0xcec15903c28fcde9!2sBoulevard+de+la+Sauveni%C3%A8re+140%2F003%2C+4000+Li%C3%A8ge!5e0!3m2!1sfr!2sbe!4v1550150740658"
+            width="100%"
+            height="450"
+            frameborder="0"
+            style="border:0"
+            allowfullscreen></iframe>
   </div>
 </div>
 {% endblock %}

@@ -33,3 +33,42 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.googleMap {
+  display: none;
+}
+
+@media screen and (min-width : 600px){
+  .googleMap {
+    display: block;
+  }
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./img/innovation3.jpg");
+  /* Set a specific height */
+  height: 500px;
+  // width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paralTitle {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.paralContent {
+  // max-width: 100%;
+  background-color: white;
+}
+
+.paralVoid{
+  height: 100px;
+}
