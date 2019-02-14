@@ -14,3 +14,22 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.quoteBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infoBox {
+
+}
+
+.practicalInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
