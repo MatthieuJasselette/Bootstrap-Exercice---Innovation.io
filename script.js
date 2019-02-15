@@ -5,6 +5,17 @@ import "babel-polyfill"
 // import bootstrap's javascript part
 import 'bootstrap';
 
+let emptyForm = () => {
+  document.getElementsByClassName("form-control")[0].value = "";
+  document.getElementsByClassName("form-control")[1].value = "";
+}
+
+// document.getElementById("contactButton").addEventListener('click', () => {emptyForm()});
+document.getElementById("contactButton").onclick = emptyForm;
+
+
+
+
 // import imgs from "./img/*.jpg";
 // import innovation1 from "./innovation1.jpg";
 // import innovation2 from "./innovation2.jpg";

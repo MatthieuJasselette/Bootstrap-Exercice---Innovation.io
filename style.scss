@@ -23,8 +23,34 @@
   align-items: center;
 }
 
-.infoBox {
+.blockquote{
+  align-items: center;
+}
 
+.award{
+  width: 50%;
+}
+
+.card-body-award {
+  display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+}
+
+.cardLogo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cardLogoCaption{
+  width: 8rem;
+}
+
+.carousel-caption{
+  font-size: x-large;
 }
 
 .practicalInfo {
@@ -44,9 +70,10 @@
   }
 }
 
+
 .parallax {
   /* The image used */
-  background-image: url("./img/innovation3.jpg");
+  background-image: url("./img/innovation3_light.jpg");
   /* Set a specific height */
   height: 500px;
   // width: 100%;
@@ -59,16 +86,21 @@
 }
 
 .paralTitle {
-  height: 100px;
+  height: 25%;
   display: flex;
   align-items: center;
 }
 
 .paralContent {
   // max-width: 100%;
+  height: auto;
   background-color: white;
 }
 
 .paralVoid{
-  height: 100px;
+  height: 25%;
+}
+
+.form-footer {
+  padding-bottom: 0.5em;
 }
